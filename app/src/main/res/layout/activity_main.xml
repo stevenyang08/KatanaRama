@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yato.project.katanarama.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:id="@+id/KatanaImageView"
+        android:layout_alignParentTop="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="KATANARAMA"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:background="#757575"
+            android:alpha="0.8"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:src="@drawable/katana"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="Phone Number: 555-555-5555"
+            android:textSize="17sp"
+            android:textColor="@android:color/white"
+            android:background="#757575"
+            android:alpha="0.8"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="Email: katanas@katanarama.jp"
+            android:textSize="17sp"
+            android:textColor="@android:color/white"
+            android:background="#757575"
+            android:alpha="0.8"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="Website: http://katanarama.jp"
+            android:textSize="17sp"
+            android:textColor="@android:color/white"
+            android:background="#757575"
+            android:alpha="0.8"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="Who are we:\nWe sell high-quality katanas\nmade in Japan."
+            android:textSize="17sp"
+            android:textColor="@android:color/white"
+            android:background="#757575"
+            android:alpha="0.8"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="Hours: M-F 8am-5pm"
+            android:textSize="17sp"
+            android:textColor="@android:color/white"
+            android:background="#757575"
+            android:alpha="0.8"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
